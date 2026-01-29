@@ -24,11 +24,21 @@ html, body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 15px 10px;
+    padding: 8px 10px;
+    gap: 5px;
+  }
+
+  #navbar .container h1 {
+    margin: 0;
+    padding: 0;
   }
 
   #navbar .container h1 a.logo {
     font-size: 24px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    display: block;
   }
 
   #navbar ul {
