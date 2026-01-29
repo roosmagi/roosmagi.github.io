@@ -404,3 +404,56 @@ body {
   list-style: none;
   padding: 0;
 }
+
+/* Media Query - Smaller screens */
+@media screen and (max-width: 1366px) and (min-width: 501px) {
+  .hero {
+    height: 45vh;
+  }
+
+  .nav-boxes {
+    margin: 20px 0;
+  }
+
+  .box {
+    height: 160px;
+  }
+}
+
+/* Media Query - Large screens */
+@media screen and (min-width: 1920px) {
+  .hero-text h1 {
+    font-size: 48px;
+  }
+
+  .box {
+    width: 320px;
+    height: 220px;
+    font-size: 28px;
+  }
+
+  .nav-boxes {
+    gap: 60px;
+  }
+
+  .projects {
+    max-width: 1200px;
+  }
+
+  .contact-container {
+    max-width: 1200px;
+  }
+
+  .profile-right {
+    max-width: 900px;
+  }
+
+  .project-content h3 {
+    font-size: 32px;
+  }
+
+  .project-content p {
+    font-size: 18px;
+  }
+}
+
