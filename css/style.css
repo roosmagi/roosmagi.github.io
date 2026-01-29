@@ -1,11 +1,12 @@
-html, body {
-    height: 100%;
-    background-color: #F5F6F9;
-    font-family: 'Poppins', sans-serif;
+html,
+body {
+  height: 100%;
+  background-color: #F5F6F9;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
-    margin: 0px;
+  margin: 0px;
 }
 
 :root {
@@ -20,65 +21,65 @@ body {
 
 /* NavBar */
 #navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 200px;
-    height: 100vh;
-    background: linear-gradient(180deg, #2A2B30 0%, #1F2024 100%);
-    box-shadow: 4px 0 16px rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  background: linear-gradient(180deg, #2A2B30 0%, #1F2024 100%);
+  box-shadow: 4px 0 16px rgba(0, 0, 0, 0.4);
 }
 
 #navbar .current {
-    color: #F33134;
-    text-decoration: none;
-    position: relative;
-    padding-left: 12px;
-    border-left: 3px solid #F33134;
+  color: #F33134;
+  text-decoration: none;
+  position: relative;
+  padding-left: 12px;
+  border-left: 3px solid #F33134;
 }
 
 #navbar .container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 20px;
 }
 
 #navbar ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 30px;
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
 }
 
 #navbar li {
-    margin: 18px 0;
+  margin: 18px 0;
 }
 
 #navbar a {
-    color: white;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    position: relative;
-    transition: all 0.3s ease;
-    display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  transition: all 0.3s ease;
+  display: inline-block;
 }
 
 #navbar a:hover:not(.logo) {
-    color: #F33134;
-    transform: translateX(6px);
+  color: #F33134;
+  transform: translateX(6px);
 }
 
 #navbar a.logo {
-    font-family: 'Poppins', sans-serif;
-    font-size: 32px;
-    background: linear-gradient(135deg, #F33134, #FF6B6B);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 700;
-    letter-spacing: -0.5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  background: linear-gradient(135deg, #F33134, #FF6B6B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  letter-spacing: -0.5px;
 }
 
 .main-content {
@@ -87,16 +88,16 @@ body {
 
 /* Home */
 /* Hero Section */
-.hero { 
-  height: 60vh; 
-  background-image: linear-gradient(#F76C6B, #5A5B61); 
+.hero {
+  height: 60vh;
+  background-image: linear-gradient(#F76C6B, #5A5B61);
   color: #000000;
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-  display: flex; 
-  align-items: center; 
-  justify-content: flex-start; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -176,51 +177,118 @@ body {
 /* Contact */
 .contact {
   padding: var(--space-7) var(--space-6);
-    color: white;
-    font-family: 'Poppins', sans-serif;
+  color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 .contact h2 {
-    color: #000000;
-    font-size: 32px;
+  color: #000000;
+  font-size: 32px;
   margin-bottom: var(--space-2);
 }
 
 .contact p {
   margin-bottom: var(--space-5);
-    color: #000000;
+  color: #000000;
 }
 
 .contact-container {
-    display: flex;
+  display: flex;
+  align-items: flex-start;
   gap: var(--space-6);
-    max-width: 900px;
+  max-width: 1100px;
   margin-top: var(--space-5);
 }
 
 /* Info */
 .contact-info {
-    flex: 1;
+  flex: 1;
+  max-width: 400px;
 }
 
 .contact-info p {
-    font-size: 16px;
-    border: 1px solid #B0B3B3; 
-  padding: var(--space-5); 
-    border-radius: 12px; 
-    background-color: #CCCFCF; 
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    max-width: 50%;
+  font-size: 16px;
+  border: 1px solid #B0B3B3;
+  padding: var(--space-5);
+  border-radius: 12px;
+  background-color: #CCCFCF;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  max-width: 100%;
+  margin-top: 0;
 }
 
 .contact-info i {
-    margin-right: 10px;
-    color: #F33134;
+  margin-right: 10px;
+  color: #F33134;
 }
 
 .contact-info a {
-    color: #000000;
-    text-decoration: none;
+  color: #000000;
+  text-decoration: none;
+}
+
+.contact-form {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-5);
+  border-radius: 12px;
+  border: 1px solid #B0B3B3;
+  background-color: #CCCFCF;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: -8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #B0B3B3;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #F5F6F9;
+  color: #000000;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #F33134;
+  box-shadow: 0 0 0 3px rgba(243, 49, 52, 0.1);
+}
+
+.contact-form button {
+  align-self: flex-start;
+  padding: 12px 32px;
+  background-color: #F33134;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: var(--space-2);
+}
+
+.contact-form button:hover {
+  background-color: #C22A2A;
+  transform: translateY(-2px);
 }
 
 /* Projects container */
@@ -232,6 +300,7 @@ body {
   margin: 0 auto;
   padding: var(--space-6) var(--space-4);
 }
+
 .projects h2 {
   font-size: 32px;
   margin-bottom: var(--space-4);
@@ -243,11 +312,11 @@ body {
   align-items: flex-start;
   gap: var(--space-4);
 
-  border: 1px solid #B0B3B3; 
-  padding: var(--space-5); 
-  border-radius: 12px; 
-  background-color: #CCCFCF; 
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  border: 1px solid #B0B3B3;
+  padding: var(--space-5);
+  border-radius: 12px;
+  background-color: #CCCFCF;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 
@@ -557,4 +626,3 @@ footer {
     font-size: 18px;
   }
 }
-
