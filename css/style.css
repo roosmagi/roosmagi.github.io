@@ -358,17 +358,19 @@ body {
 }
 
 .competition-links a {
-  padding: 6px 12px;
-  background-color: #F33134;
-  color: white;
+  padding: 4px 10px;
+  background-color: transparent;
+  color: #F33134;
   text-decoration: none;
-  border-radius: 5px;
+  border: 1px solid #F33134;
+  border-radius: 4px;
   font-size: 13px;
-  transition: background-color 0.3s, transform 0.2s;
+  transition: all 0.3s ease;
 }
 
 .competition-links a:hover {
-  background-color: #d6282a;
+  background-color: #F33134;
+  color: white;
   transform: translateY(-1px);
 }
 
@@ -396,13 +398,26 @@ body {
 }
 
 .skills-group h3 {
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   font-size: 16px;
+  font-weight: 600;
+  color: #000;
 }
 
 .skills-group ul {
-  list-style: none;
-  padding: 0;
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.skills-group ul li {
+  margin-bottom: 6px;
+  color: #333;
+  padding-left: 4px;
+}
+
+.skills-group ul li::marker {
+  color: #F33134;
 }
 
 /* Media Query - Smaller screens */
