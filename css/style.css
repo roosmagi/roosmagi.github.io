@@ -419,8 +419,8 @@ body {
 }
 
 .profile-left img {
-  width: 200px;
-  height: 200px;
+  width: 280px;
+  height: 280px;
   border-radius: 8%;
   object-fit: cover;
   margin-bottom: var(--space-4);
