@@ -7,6 +7,9 @@ body {
 
 body {
   margin: 0px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 :root {
@@ -84,6 +87,7 @@ body {
 
 .main-content {
   margin-left: 200px;
+  flex: 1 0 auto;
 }
 
 /* Home */
@@ -531,6 +535,7 @@ body {
 /* Footer */
 footer {
   margin-left: 200px;
+  margin-top: auto;
   padding: var(--space-4) var(--space-6);
   background-color: #2A2B30;
   color: #FFFFFF;
